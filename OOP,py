@@ -1,0 +1,11 @@
+class RobotDog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        return f"{self.name} says Woof!"
+
+    def fetch(self, item):
+        return f"{self.name} is fetching the {item}!"
+
+   
